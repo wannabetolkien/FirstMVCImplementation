@@ -3,9 +3,10 @@ public class Model {
     private final int[] price=new int[100];
     private final int[] quantity=new int[100];
     private  int numberOfItems=0;
-    private String userName="Nabeel";
-    private String passWord="Akhter";
-
+    private String userNameInventory="Nabeel";
+    private String passWordInventory="Akhter";
+    private String passWordBilling="Akhter";
+    private String userNameBilling="Shaheen";
     public String accessProduct(int i){
         return product[i];
     }
@@ -30,16 +31,28 @@ public class Model {
     public void setNumberOfItems(int a){
         this.numberOfItems=a;
     }
-    public String giveUserName(){
-        return userName;
+    public String giveUserNameInventory(){
+        return userNameInventory;
     }
-    public String givePassWord(){
-        return passWord;
+    public String givePassWordInventory(){
+        return passWordInventory;
     }
-    public void setPassWord(String a){
-        this.passWord=a;
+    public void setPassWordInventory(String a){
+        this.passWordInventory=a;
     }
-    public void setUserName(String b){
-        this.userName=b;
+    public void setUserNameInventory(String b){
+        this.userNameInventory=b;
+    }
+    public String giveUserNameBilling(){
+        return userNameBilling;
+    }
+    public String givePassWordBilling(){
+        return passWordBilling;
+    }
+    public void setPassWordBilling(String a){
+        this.passWordBilling=a;
+    }
+    public void setUserNameBilling(String b){
+        this.userNameBilling=b;
     }
 }
