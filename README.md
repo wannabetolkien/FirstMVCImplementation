@@ -1,2 +1,2 @@
 # FirstMVCImplementation
-Basic Java Project - Inventory Management System with Username and Password || Main Focus-MVC Implementation
+Basic Java Project - Inventory Management System and Billing System with Seperate  Username and Password for different tasks. || Main Focus-MVC Implementation
